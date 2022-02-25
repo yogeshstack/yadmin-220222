@@ -110,7 +110,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
@@ -136,6 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SESSION AGE 5 Minutes
 # SESSION_COOKIE_AGE = 1*60
 
-SESSION_EXPIRE_SECONDS = 30  # 300 seconds = 5 minutes
+SESSION_EXPIRE_SECONDS = 180  # 300 seconds = 5 minutes
 SESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
 SESSION_TIMEOUT_REDIRECT = '/admin/logout/'
